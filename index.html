@@ -35,7 +35,7 @@
                 <input type="text" placeholder="بحث باسماء الكتاب ,المؤلف ,العنوان">
             </div>
             <!-- nav ul -->
-            <ul>
+            <ul class="navlist">
                 <li>الرئيسيه</li>
                 <hr>
                 <li>جميع الكتب</li>
@@ -46,7 +46,7 @@
                 <hr>
                 <li>المراجعات</li>
             </ul>
-            <div class="menuicon">
+            <div class="menuicon" id="menuicon">
                 <img src="./img/menuicon.png">
             </div>
         </nav>
@@ -82,9 +82,60 @@
             <p class="text-two">جميع الكتب</p>
         </header>
         <!-- book details -->
-        <div class="books-details">
+        <div class="slider" id="slider1">
         <!-- book -->
-                     <div class="book">
+                        <div class="book-card">
+                                    <div class="book-image">
+                                        <img src="./img/book item1.png">
+                                    </div>
+                                        <div class="book-content">
+                                            <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
+                                            <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
+                                                لمفاهيم أساسية في هذا العلم.
+                                            </p>
+                                            <p class="book-author">المؤلف: تشارلز لايل</p>
+                                            <div class="book-rate">
+                                                <p>4.3</p>
+                                                <img src="./img/star.png">
+                                            </div>
+                                            <div class="book-price">
+                                                <p> <span>$ 29.99</span> $ 26.99 </p>
+                                            </div>
+                                            <button class="bookcard-button">
+                                                    <p>أضف إلى عربة التسوق</p>
+                                                    <img src="./img/addcart.png">
+                                            </button>
+                                    </div>
+                        </div>
+                    <div class="book-card">
+                           <div class="book-image">
+                            <img src="./img/book item2.png">
+                            </div>
+                            <div class="book-content">
+                            <p class="book-title">جيولوجيا العالم 
+                            (Geology of the World)</p>
+                            <p class="book-info">
+                                يناقش تطور سطح الأرض والأحداث الجيولوجية التي شكلتها.
+                            </p>
+                            <p class="book-author">
+                                المؤلف: كلارينس دانر</p>
+                            <div class="book-rate">
+                                <p>(3.3)</p>
+                                <img src="./img/star.png">
+                            </div>
+                            <div class="book-price">
+                                <p> <span>$ 29.99</span> $ 26.99 </p>
+                            </div>
+                            <button class="bookcard-button">
+                                    <p>أضف إلى عربة التسوق</p>
+                                    <img src="./img/addcart.png">
+                            </button>
+                            </div>
+                    </div>
+                     <div class="book-card">
+                        <div class="book-image">
+                            <img src="./img/book item2.png">
+                        </div>
                         <div class="book-content">
                             <p class="book-title">
                                 علم الصخور
@@ -103,72 +154,17 @@
                             <div class="book-price">
                                 <p> <span>$ 29.99</span> $ 26.99 </p>
                             </div>
-                            <button class="addcart-button">
+                            <button class="bookcard-button">
                                     <p>أضف إلى عربة التسوق</p>
                                     <img src="./img/addcart.png">
                             </button>
                         </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
-
-                    </div>
-                    <div class="book">
-                        <div class="book-content">
-                            <p class="book-title">جيولوجيا العالم 
-                            (Geology of the World)</p>
-                            <p class="book-info">
-                                يناقش تطور سطح الأرض والأحداث الجيولوجية التي شكلتها.
-                            </p>
-                            <p class="book-author">
-                                المؤلف: كلارينس دانر</p>
-                            <div class="book-rate">
-                                <p>(3.3)</p>
-                                <img src="./img/star.png">
-                            </div>
-                            <div class="book-price">
-                                <p> <span>$ 29.99</span> $ 26.99 </p>
-                            </div>
-                            <button class="addcart-button">
-                                    <p>أضف إلى عربة التسوق</p>
-                                    <img src="./img/addcart.png">
-                            </button>
-                        </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
-
-                    </div>
-                    <div class="book">
-                                        <div class="book-content">
-                                        <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
-                                        <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
-                                            لمفاهيم أساسية في هذا العلم.
-                                        </p>
-                                        <p class="book-author">المؤلف: تشارلز لايل</p>
-                                        <div class="book-rate">
-                                            <p>4.3</p>
-                                            <img src="./img/star.png">
-                                        </div>
-                                        <div class="book-price">
-                                            <p> <span>$ 29.99</span> $ 26.99 </p>
-                                        </div>
-                                        <button class="addcart-button">
-                                                <p>أضف إلى عربة التسوق</p>
-                                                <img src="./img/addcart.png">
-                                        </button>
-                                    </div>
-                                    <div class="book-image">
-                                        <img src="./img/book item1.png">
-                                    </div>
-
-                    
                     </div>
         </div>
         <!-- book arrows -->
          <div class="book-arrows">
-                    <img src="./img/arrowleft.png">
-                    <img src="./img/arrowright.png">
+                    <img src="./img/arrowleft.png" class="prev1">
+                    <img src="./img/arrowright.png" class="next1">
 
         </div> 
 
@@ -194,9 +190,62 @@
             <p class="text-two">منتجات جديدة</p>
         </header>
         <!-- book details -->
-        <div class="books-details">
+      <div class="slider" id="slider2">
         <!-- book -->
-                     <div class="book">
+                          <div class="book-card">
+                                    <div class="book-image">
+                                        <img src="./img/book item1.png">
+                                    </div>
+                                        <div class="book-content">
+                                            <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
+                                            <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
+                                                لمفاهيم أساسية في هذا العلم.
+                                            </p>
+                                            <p class="book-author">المؤلف: تشارلز لايل</p>
+                                            <div class="book-rate">
+                                                <p>4.3</p>
+                                                <img src="./img/star.png">
+                                            </div>
+                                            <div class="book-price">
+                                                <p> <span>$ 29.99</span> $ 26.99 </p>
+                                            </div>
+                                            <button class="bookcard-button">
+                                                    <p>أضف إلى عربة التسوق</p>
+                                                    <img src="./img/addcart.png">
+                                            </button>
+                                    </div>
+                    </div>
+                    <div class="book-card">
+                           <div class="book-image">
+                            <img src="./img/book item2.png">
+                            </div>
+                        <div class="book-content">
+                            <p class="book-title">جيولوجيا العالم 
+                            (Geology of the World)</p>
+                            <p class="book-info">
+                                يناقش تطور سطح الأرض والأحداث الجيولوجية التي شكلتها.
+                            </p>
+                            <p class="book-author">
+                                المؤلف: كلارينس دانر</p>
+                            <div class="book-rate">
+                                <p>(3.3)</p>
+                                <img src="./img/star.png">
+                            </div>
+                            <div class="book-price">
+                                <p> <span>$ 29.99</span> $ 26.99 </p>
+                            </div>
+                            <button class="bookcard-button">
+                                    <p>أضف إلى عربة التسوق</p>
+                                    <img src="./img/addcart.png">
+                            </button>
+                        </div>
+                     
+
+                    </div>
+                     <div class="book-card">
+                        <div class="book-image">
+                            <img src="./img/book item2.png">
+                        </div>
                         <div class="book-content">
                             <p class="book-title">
                                 علم الصخور
@@ -215,72 +264,19 @@
                             <div class="book-price">
                                 <p> <span>$ 29.99</span> $ 26.99 </p>
                             </div>
-                            <button class="addcart-button">
+                            <button class="bookcard-button">
                                     <p>أضف إلى عربة التسوق</p>
                                     <img src="./img/addcart.png">
                             </button>
                         </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
+                   
 
-                    </div>
-                    <div class="book">
-                        <div class="book-content">
-                            <p class="book-title">جيولوجيا العالم 
-                            (Geology of the World)</p>
-                            <p class="book-info">
-                                يناقش تطور سطح الأرض والأحداث الجيولوجية التي شكلتها.
-                            </p>
-                            <p class="book-author">
-                                المؤلف: كلارينس دانر</p>
-                            <div class="book-rate">
-                                <p>(3.3)</p>
-                                <img src="./img/star.png">
-                            </div>
-                            <div class="book-price">
-                                <p> <span>$ 29.99</span> $ 26.99 </p>
-                            </div>
-                            <button class="addcart-button">
-                                    <p>أضف إلى عربة التسوق</p>
-                                    <img src="./img/addcart.png">
-                            </button>
-                        </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
-
-                    </div>
-                    <div class="book">
-                                        <div class="book-content">
-                                        <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
-                                        <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
-                                            لمفاهيم أساسية في هذا العلم.
-                                        </p>
-                                        <p class="book-author">المؤلف: تشارلز لايل</p>
-                                        <div class="book-rate">
-                                            <p>4.3</p>
-                                            <img src="./img/star.png">
-                                        </div>
-                                        <div class="book-price">
-                                            <p> <span>$ 29.99</span> $ 26.99 </p>
-                                        </div>
-                                        <button class="addcart-button">
-                                                <p>أضف إلى عربة التسوق</p>
-                                                <img src="./img/addcart.png">
-                                        </button>
-                                    </div>
-                                    <div class="book-image">
-                                        <img src="./img/book item1.png">
-                                    </div>
-
-                    
                     </div>
         </div>
         <!-- book arrows -->
          <div class="book-arrows">
-                    <img src="./img/arrowleft.png">
-                    <img src="./img/arrowright.png">
+            <img src="./img/arrowleft.png" class="prev2">
+            <img src="./img/arrowright.png" class="next2">
 
         </div> 
 
@@ -292,9 +288,62 @@
             <p class="text-two">المذكرات</p>
         </header>
         <!-- book details -->
-        <div class="books-details">
+        <div class="slider" id="slider3">
         <!-- book -->
-                     <div class="book">
+                          <div class="book-card">
+                                    <div class="book-image">
+                                        <img src="./img/book item1.png">
+                                    </div>
+                                        <div class="book-content">
+                                            <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
+                                            <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
+                                                لمفاهيم أساسية في هذا العلم.
+                                            </p>
+                                            <p class="book-author">المؤلف: تشارلز لايل</p>
+                                            <div class="book-rate">
+                                                <p>4.3</p>
+                                                <img src="./img/star.png">
+                                            </div>
+                                            <div class="book-price">
+                                                <p> <span>$ 29.99</span> $ 26.99 </p>
+                                            </div>
+                                            <button class="bookcard-button">
+                                                    <p>أضف إلى عربة التسوق</p>
+                                                    <img src="./img/addcart.png">
+                                            </button>
+                                    </div>
+                    </div>
+                    <div class="book-card">
+                           <div class="book-image">
+                            <img src="./img/book item2.png">
+                            </div>
+                        <div class="book-content">
+                            <p class="book-title">جيولوجيا العالم 
+                            (Geology of the World)</p>
+                            <p class="book-info">
+                                يناقش تطور سطح الأرض والأحداث الجيولوجية التي شكلتها.
+                            </p>
+                            <p class="book-author">
+                                المؤلف: كلارينس دانر</p>
+                            <div class="book-rate">
+                                <p>(3.3)</p>
+                                <img src="./img/star.png">
+                            </div>
+                            <div class="book-price">
+                                <p> <span>$ 29.99</span> $ 26.99 </p>
+                            </div>
+                            <button class="bookcard-button">
+                                    <p>أضف إلى عربة التسوق</p>
+                                    <img src="./img/addcart.png">
+                            </button>
+                        </div>
+                     
+
+                    </div>
+                     <div class="book-card">
+                        <div class="book-image">
+                            <img src="./img/book item2.png">
+                        </div>
                         <div class="book-content">
                             <p class="book-title">
                                 علم الصخور
@@ -313,72 +362,19 @@
                             <div class="book-price">
                                 <p> <span>$ 29.99</span> $ 26.99 </p>
                             </div>
-                            <button class="addcart-button">
+                            <button class="bookcard-button">
                                     <p>أضف إلى عربة التسوق</p>
                                     <img src="./img/addcart.png">
                             </button>
                         </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
+                   
 
-                    </div>
-                    <div class="book">
-                        <div class="book-content">
-                            <p class="book-title">جيولوجيا العالم 
-                            (Geology of the World)</p>
-                            <p class="book-info">
-                                يناقش تطور سطح الأرض والأحداث الجيولوجية التي شكلتها.
-                            </p>
-                            <p class="book-author">
-                                المؤلف: كلارينس دانر</p>
-                            <div class="book-rate">
-                                <p>(3.3)</p>
-                                <img src="./img/star.png">
-                            </div>
-                            <div class="book-price">
-                                <p> <span>$ 29.99</span> $ 26.99 </p>
-                            </div>
-                            <button class="addcart-button">
-                                    <p>أضف إلى عربة التسوق</p>
-                                    <img src="./img/addcart.png">
-                            </button>
-                        </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
-
-                    </div>
-                    <div class="book">
-                                        <div class="book-content">
-                                        <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
-                                        <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
-                                            لمفاهيم أساسية في هذا العلم.
-                                        </p>
-                                        <p class="book-author">المؤلف: تشارلز لايل</p>
-                                        <div class="book-rate">
-                                            <p>4.3</p>
-                                            <img src="./img/star.png">
-                                        </div>
-                                        <div class="book-price">
-                                            <p> <span>$ 29.99</span> $ 26.99 </p>
-                                        </div>
-                                        <button class="addcart-button">
-                                                <p>أضف إلى عربة التسوق</p>
-                                                <img src="./img/addcart.png">
-                                        </button>
-                                    </div>
-                                    <div class="book-image">
-                                        <img src="./img/book item1.png">
-                                    </div>
-
-                    
                     </div>
         </div>
         <!-- book arrows -->
          <div class="book-arrows">
-                    <img src="./img/arrowleft.png">
-                    <img src="./img/arrowright.png">
+                    <img src="./img/arrowleft.png" class="prev3">
+                    <img src="./img/arrowright.png" class="next3">
 
         </div> 
 
@@ -411,9 +407,13 @@
             <p class="text-two">المراجعات</p>
         </header>
         <!-- book details -->
-        <div class="books-details">
+        <div class="slider" id="slider4">
         <!-- book -->
-                     <div class="book">
+                     <div class="book-card">
+                           <div class="book-image">
+                            <img src="./img/book item2.png">
+                        </div>
+                        
                         <div class="book-content">
                             <p class="book-title">
                                 علم الصخور
@@ -432,17 +432,18 @@
                             <div class="book-price">
                                 <p> <span>$ 29.99</span> $ 26.99 </p>
                             </div>
-                            <button class="addcart-button">
+                            <button class="bookcard-button">
                                     <p>أضف إلى عربة التسوق</p>
                                     <img src="./img/addcart.png">
                             </button>
                         </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
+                     
 
                     </div>
-                    <div class="book">
+                    <div class="book-card">
+                           <div class="book-image">
+                            <img src="./img/book item2.png">
+                        </div>
                         <div class="book-content">
                             <p class="book-title">جيولوجيا العالم 
                             (Geology of the World)</p>
@@ -458,17 +459,18 @@
                             <div class="book-price">
                                 <p> <span>$ 29.99</span> $ 26.99 </p>
                             </div>
-                            <button class="addcart-button">
+                            <button class="bookcard-button">
                                     <p>أضف إلى عربة التسوق</p>
                                     <img src="./img/addcart.png">
                             </button>
                         </div>
-                        <div class="book-image">
-                            <img src="./img/book item2.png">
-                        </div>
+                     
 
                     </div>
-                    <div class="book">
+                    <div class="book-card">
+                             <div class="book-image">
+                                        <img src="./img/book item1.png">
+                                    </div>
                                         <div class="book-content">
                                         <p class="book-title">مبادئ علم الجيولوجيا (Principles of Geology)</p>
                                         <p class="book-info">يعد من أوائل الكتب في علم الجيولوجيا ويؤسس
@@ -482,22 +484,20 @@
                                         <div class="book-price">
                                             <p> <span>$ 29.99</span> $ 26.99 </p>
                                         </div>
-                                        <button class="addcart-button">
+                                        <button class="bookcard-button">
                                                 <p>أضف إلى عربة التسوق</p>
                                                 <img src="./img/addcart.png">
                                         </button>
                                     </div>
-                                    <div class="book-image">
-                                        <img src="./img/book item1.png">
-                                    </div>
+                               
 
                     
                     </div>
         </div>
         <!-- book arrows -->
          <div class="book-arrows">
-                    <img src="./img/arrowleft.png">
-                    <img src="./img/arrowright.png">
+                    <img src="./img/arrowleft.png" class="prev4">
+                    <img src="./img/arrowright.png" class="next4">
 
         </div> 
 
@@ -632,6 +632,12 @@
         </div>
        
      </footer>
+
+
+
+     <script src="./main/main.js">
+
+     </script>
       
     
 </body>
